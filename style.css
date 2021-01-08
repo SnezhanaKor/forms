@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+}
+.forms {
+    display: flex;
+    margin: 10px;
+
+}
+.background-form-1 {
+    background-image: url(img/form-1-fone.png);
+    padding: 30px 185px;
+}
+.form-1 {
+background-image: url(img/form-1.png);
+padding-top: 89px;
+padding-bottom: 18px;
+padding-left: 28px;
+padding-right: 28px;
+display: flex;
+flex-flow: column;
+}
+.login-1, .parol-1 {
+    font-size: 14px;
+line-height: 16px;
+color: #636363;
+padding-top: 13px;
+padding-bottom: 11px;
+padding-left: 14px;
+background: #E4E6E9;
+border: 1px solid #C9C9C9;
+box-sizing: border-box;
+border-radius: 3px 3px 0px 0px;
+}
+.button-1 {
+    margin-top: 32px;
+    padding: 11px 88px;
+    background: radial-gradient(100% 100% at 55.23% 100%, #DA944D 0%, #E3B557 100%);
+border: 1px solid #EAB74E;
+box-sizing: border-box;
+border-radius: 3px;
+color: #FFFFFF;
+}
+
