@@ -1,128 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Forms</title>
-</head>
+  </head>
 
-<body class="forms">
+  <body class="forms">
     <div class="background-form-1">
-        <form action="#" class="form-1">
-            <input type="text" class="login-1" placeholder="Логин">
-            <input type="text" class="parol-1" placeholder="Пароль">
-            <button class="button-1">Войти</button>
-        </form>
+      <form action="#" class="form-1">
+        <input type="text" class="login-1" placeholder="Логин" />
+        <input type="text" class="parol-1" placeholder="Пароль" />
+        <button class="button-1">Войти</button>
+      </form>
     </div>
     <div class="background-form-2">
-        <form action="#" class="form-2">
-            <div class="header-form-2">
-                <p class="text-2">Авторизация</p>
-                <img src="img/button-2.svg" alt="button-2">
-            </div>
-            <input type="text" class="login-2" placeholder="Логин">
-            <input type="text" class="parol-2" placeholder="Пароль">
-            <div class="button-2-align">
-                <button class="button-2">Войти</button>
-            </div>
-        </form>
+      <form action="#" class="form-2">
+        <div class="header-form-2">
+          <p class="text-2">Авторизация</p>
+          <img src="img/button-2.svg" alt="button-2" />
+        </div>
+        <input type="text" class="login-2" placeholder="Логин" />
+        <input type="text" class="parol-2" placeholder="Пароль" />
+        <div class="button-2-align">
+          <button class="button-2">Войти</button>
+        </div>
+      </form>
     </div>
     <div class="background-form-3">
-        <div class="form-3">
-            <div class="contact-form-3">
-                <div class="contact-header-form-3">
-                    Адрес
-                    <hr class="form-3-line form-3-line-w-1">
-                </div>
-                <div class="address-form-3">
-                    <p class="address-form-3-content">
-                        г. Париж
-                    </p>
-                    <p class="address-form-3-content">
-                        Челябинская обл.
-                    </p>
-                    <p class="address-form-3-content">
-                        пр. Монмартр 21-1
-                    </p>
-                    <p class="address-form-3-content">
-                        Василий Пупкин
-                    </p>
-                </div>
+      <div class="form-3">
+        <div class="contact-form-3">
+          <div class="contact-header-form-3">
+            Адрес
+            <hr class="form-3-line form-3-line-w-1" />
+          </div>
+          <div class="address-form-3">
+            <p class="address-form-3-content">г. Париж</p>
+            <p class="address-form-3-content">Челябинская обл.</p>
+            <p class="address-form-3-content">пр. Монмартр 21-1</p>
+            <p class="address-form-3-content">Василий Пупкин</p>
+          </div>
+        </div>
+        <form action="#" class="form-content-3">
+          <div class="header-form-3">
+            Отправка сообщения
+            <hr class="form-3-line form-3-line-w-2" />
+          </div>
+          <div class="form-content-3-align">
+            <label for="login-3" class="label-login-3"
+              >Ваше имя <span class="star-form">*</span></label
+            >
+            <input type="text" id="login-3" required />
+            <label for="e-mail-3-text" class="e-mail-3"
+              >Ваш E-mail <span class="star-form">*</span></label
+            >
+            <input type="text" id="e-mail-3-text" required />
+            <label for="message-3-text" class="message-3">
+              Ваше сообщение <span class="star-form">*</span></label
+            >
+            <input type="text" id="message-3-text" required />
+            <div class="button-3-align">
+              <button class="button-3">Отправить</button>
             </div>
-            <form action="#" class="form-content-3">
-                <div class="header-form-3">
-                    Отправка сообщения
-                    <hr class="form-3-line form-3-line-w-2">
-                </div>
-                <div class="form-content-3-align">
-                    <label for="login-3" class="label-login-3">Ваше имя <span class="star-form">*</span></label>
-                    <input type="text" id="login-3">
-                    <label for="e-mail-3-text" class="e-mail-3">Ваш E-mail <span class="star-form">*</span></label>
-                    <input type="text" id="e-mail-3-text">
-                    <label for="message-3-text" class="message-3"> Ваше сообщение <span
-                            class="star-form">*</span></label>
-                    <input type="text" id="message-3-text">
-                    <div class="button-3-align">
-                        <button class="button-3">Отправить</button>
-                    </div>
-                </div>
-
-            </form>
-        </div>
+          </div>
+        </form>
+      </div>
     </div>
-
     <div class="background-form-4">
-        <div class="form-4-1">
-            <h1 class="header-form-4">
-                Сообщение
-            </h1>
-            <hr class="line-form-4">
-            <p class="p-form-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at orci non neque interdum
-                condimentum. Donec imperdiet elementum tristique. Vestibulum ante ipsum primis in faucibus orci luctus
-                et ultrices posuere cubilia Curae; Praesent vel purus id odio posuere dictum fermentum in nisi. Nulla
-                porta elit nec velit porta gravida.
-            </p>
+      <div class="form-4-1">
+        <h1 class="header-form-4">Сообщение</h1>
+        <hr class="line-form-4" />
+        <p class="p-form-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          at orci non neque interdum condimentum. Donec imperdiet elementum
+          tristique. Vestibulum ante ipsum primis in faucibus orci luctus et
+          ultrices posuere cubilia Curae; Praesent vel purus id odio posuere
+          dictum fermentum in nisi. Nulla porta elit nec velit porta gravida.
+        </p>
 
-            <form action="#" class="form-content-4">
-                <div class="form-content-4-align">
-                    <div class="content-form-left">
-                        <label for="login-4" class="label-login-4">Ваше имя <span
-                                class="star-form-4">(Обязательно)</span>:</label>
-                        <input type="text" id="login-4">
-                        <label for="e-mail-4-text" class="e-mail-4">Ваш E-mail <span
-                                class="star-form-4">(Обязательно)</span>:</label>
-                        <input type="text" id="e-mail-4-text">
-                        <label for="message-4-text" class="message-4"> Ваше сообщение <span
-                                class="star-form-4">(Обязательно)</span>:</label>
-                        <input type="text" id="message-4-text">
-                        <div class="button-4-align">
-                            <button class="button-4">Отправить</button>
-                        </div>
-                    </div>
+        <form action="#" class="form-content-4">
+          <div class="form-content-4-align">
+            <div class="content-form-left">
+              <label for="login-4" class="label-login-4"
+                >Ваше имя <span class="star-form-4">(Обязательно)</span>:</label
+              >
+              <input type="text" id="login-4" required />
+              <label for="e-mail-4-text" class="e-mail-4"
+                >Ваш E-mail
+                <span class="star-form-4">(Обязательно)</span>:</label
+              >
+              <input type="text" id="e-mail-4-text" required />
+              <label for="message-4-text" class="message-4">
+                Ваше сообщение
+                <span class="star-form-4">(Обязательно)</span>:</label
+              >
+              <input type="text" id="message-4-text" required />
+              <div class="button-4-align">
+                <button class="button-4">Отправить</button>
+              </div>
+            </div>
 
-                    <div class="content-form-right">
+            <div class="content-form-right">
+              <p class="content-form-right-text">
+                <img
+                  src="img/form-4-1-icon.png"
+                  alt="form-4-1-icon"
+                  class="form-4-1-icon"
+                />Обязательно к заполнению
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="form-4-2">
+        <h1 class="header-form-4-2">Авторизация</h1>
+        <hr class="line-form-4-2" />
+        <form action="#" class="form-content-4-2">
+          <div class="form-content-4-2-align">
+            <label for="login-4-2" class="label-login-4-2">Логин</label>
+            <input type="text" id="login-4-2" />
+            <label for="parol-4-2" class="label-parol-4-2">Пароль</label>
+            <input type="text" id="parol-4-2" />
+            <div class="check-4-2-align">
+              <div class="checkbox-4-2-align">
+                <input type="checkbox" id="message-4-2-text" />
+                <label for="message-4-2-text" class="message-4-2">
+                  Запомнить меня</label
+                >
+              </div>
+              <div class="button-4-align">
+                <button class="button-4-2">Войти</button>
+              </div>
+            </div>
+            <a href="#" class="link-4-2">Забыли пароль?</a>
+          </div>
+        </form>
+      </div>
+      <div class="form-4-3">
+        <h1 class="header-form-4-3">Регистрация</h1>
+        <hr class="line-form-4-3" />
+        <form action="#" class="form-content-4-2">
+          <div class="form-content-4-2-align">
+            <label for="login-4-3" class="label-login-4-2"
+              >Логин <span class="star-4-3">(обязательно)</span>:</label
+            >
+            <input type="text" id="login-4-3" required />
+            <label for="parol-4-3" class="label-parol-4-2"
+              >Пароль <span class="star-4-3">(обязательно)</span>:</label
+            >
+            <input type="text" id="parol-4-3" required />
+            <label for="parol-4-3-2" class="label-parol-4-2"
+              >Пароль еще раз
+              <span class="star-4-3">(обязательно)</span>:</label
+            >
+            <input type="text" id="parol-4-3-2" required />
+            <label for="e-mail-4-3" class="label-parol-4-2"
+              >E-mail <span class="star-4-3">(обязательно)</span>:</label
+            >
+            <input type="text" id="e-mail-4-3" required />
+            <label for="phone-4-3" class="label-parol-4-2">Телефон</label>
+            <input type="text" id="phone-4-3" />
 
-                        <p class="content-form-right-text"> <img src="img/form-4-1-icon.png" alt="form-4-1-icon"
-                                class="form-4-1-icon">Обязательно к заполнению</p>
-                    </div>
-                </div>
-
-            </form>
-        </div>
-        <div class="form-4-2">
-
-        </div>
-        <div class="form-4-3">
-
-        </div>
+            <div class="checkbox-4-3-align">
+              <input type="checkbox" id="message-4-3-text" />
+              <label for="message-4-3-text" class="message-4-2">
+                Я прочитал и согласен
+                <a href="#" class="link-4-3"
+                  >с условиями использования</a
+                ></label
+              >
+            </div>
+            <div class="button-4-align">
+              <button class="button-4-2">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-
     <div class="form-5">
-        knjdvnx
+      <p class="header-5">Авторизация</p>
+      <form action="#" class="form-content-5">
+        <input type="text" class="login-5" placeholder="Имя пользователя" />
+        <input type="text" class="parol-5" placeholder="Пароль" />
+        <div class="checkbox-5-align">
+          <input type="checkbox" id="message-5-text" />
+          <label for="message-5-text" class="message-5">Запомнить меня</label>
+        </div>
+        <div class="button-5-align">
+          <button class="button-5-1">Войти</button>
+          <button class="button-5-2">Отмена</button>
+        </div>
+        <a href="#" class="link-5">Забыли пароль?</a>
+        <a href="#" class="link-5">Регистрация</a>
+      </form>
     </div>
-</body>
-
+  </body>
 </html>
